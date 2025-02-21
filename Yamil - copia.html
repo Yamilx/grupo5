@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 404: Chiste no encontrado</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #282c34;
+            color: #61dafb;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #1e2127;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #ff5722;
+            font-size: 28px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .error {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #ff9800;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Error 404: Chiste no encontrado</h1>
+        <p>Parece que intentaste encontrar un chiste, pero algo salió mal...</p>
+        <div class="error">
+            $ sudo buscar_chiste<br>
+            bash: buscar_chiste: command not found<br>
+            ¿Quizás quisiste decir: <span style="color: #4CAF50;">sudo apt-get install sentido_del_humor</span>?
+        </div>
+    </div>
+
+</body>
+</html>
